@@ -13,9 +13,6 @@ https://gcc.gnu.org/onlinedocs/libgomp/GOMP_005fCPU_005fAFFINITY.html#GOMP_005fC
 
 ## [GnuPlot](./gnuplot)
 
-
-
-
 Classificação de dependências de dado: Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
 
 ## [Profiling](./profiling)
@@ -23,6 +20,10 @@ Classificação de dependências de dado: Uma dependência de dado é chamada de
 ---
 
 > Exercício: Para a próxima aula trazer implementado um programa para Multiplicação de matrizes quadradas.
+> Você deve tentar otimizar seu código sequencial baseado nos métodos estudados em sala (pode implementar o Strassen, mas só como referência). 
 > Crie um gráfico de tempo de execução e speedup para diferentes tamaños da entrada. 
+
+> Nas próximas aulas iremos utilizar acelerar esse código com diretivas OpenMP:
 > Repita usando escalonamento dinâmico e tente explicar qual a causa da diferença no desempenho.
 > Depois, você deve inserir as diretivas OpenMP apropriadas para paralelizar o código. 
+
