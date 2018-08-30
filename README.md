@@ -5,17 +5,15 @@
 
 Intensidade aritmética: quanto é um valor aceitável? q = f/m
 * m = número de elementos de memória (palavras) movidas entre as memórias lenta e rápida;
-* tm = tempo por operação na memória lenta
+* tm = tempo por operação na memória lenta. Pode usar tm = minimum-memory-latency / words-per-cache-line 
 * f = número de operações aritméticas
 * tf = tempo por operação aritmêtica << tm
 
 * q = 2 na multiplicação naive de matrizes (q = f/m = 2n3 / (n3 + 3n2), consideramos um n muito grande)
 * tempo de execução = f * tf + m * tm = f * tf * (1 + tm/tf  * 1/q) ==>  Ideal: (tm/tf  * 1/q) ~> 0 ==> q >> tm/tf
 
-* tm = minimum-memory-latency / words-per-cache-line 
 * tm/tf = 6.25 no Pentium 3!!
 * https://software.intel.com/en-us/articles/intelr-memory-latency-checker
-
 
 ## Dependências de dado ##
 Classificação de dependências de dado: Uma dependência de dado é chamada de *loop carried* se as duas expressões envolvidas na dependência ocorrem em diferentes iterações do laço.
