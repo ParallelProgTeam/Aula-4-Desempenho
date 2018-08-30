@@ -11,4 +11,8 @@ Demos:
 - Analize o código e modifique-o a vontade.
 
 ![Exercício](./MatMult.png) 
-Em sala foi apresentado um teste de desempenho no qual foi graficado o tempo de execução de um algoritmo de multiplicação de matrizes. Implemente uma versão e teste na sua máquina com diferentes valores de n para compará-lo ao resultado na figura.
+
+Em sala foi apresentado um teste de desempenho no qual foi graficado o número de ciclos por flop de um algoritmo de multiplicação de matrizes em função do tamanho da matriz. Implemente uma versão desse algoritmo, meça o tempo de execução e verifique se ocomportamento é imilar ao do gráfico para diferentes valores de n.
+
+* MAX FLOPS = (# Number of cores) * (Clock Frequency (cycles/sec) ) * (# FLOPS / cycle)
+
