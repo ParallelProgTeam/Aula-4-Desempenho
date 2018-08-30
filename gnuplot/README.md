@@ -9,3 +9,6 @@ Demos:
 [Exemplo](./test.dem) 
 - Execute o comando gnuplot test.dem
 - Analize o código e modifique-o a vontade.
+
+![Exercício](./MatMult.png) 
+Em sala foi apresentado um teste de desempenho no qual foi graficado o tempo de execução de um algoritmo de multiplicação de matrizes. Implemente uma versão e teste na sua máquina com diferentes valores de n para compará-lo ao resultado na figura.
