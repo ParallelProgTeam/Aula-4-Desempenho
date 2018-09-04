@@ -1,5 +1,0 @@
-Versao naive
-n = 10	 Tempo 0.000036
-n = 100	 Tempo 0.009346
-n = 1000	 Tempo 14.496006
-n = 10000	 Tempo 43731.569340
