@@ -40,3 +40,4 @@ https://gcc.gnu.org/onlinedocs/libgomp/GOMP_005fCPU_005fAFFINITY.html#GOMP_005fC
 > Repita usando escalonamento dinâmico e tente explicar qual a causa da diferença no desempenho.
 > Depois, você deve inserir as diretivas OpenMP apropriadas para paralelizar o código. 
 
+https://stackoverflow.com/questions/15829223/loop-tiling-blocking-for-large-dense-matrix-multiplication
