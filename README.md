@@ -1,4 +1,4 @@
-# Aulas-4, 5 e 6-Desempenho
+# Aulas--Desempenho
 <!-- TODO:  -->
 ## Aulas da disciplina Laboratório de Introdução à Programação Paralela ##
 *Desempenho. Dependências de dado. Classificação. Lei de Amdahl. Profilers: gprof. Ferramentas para análise de desempenho: Intel VTune Analyzer. GnuPlot
